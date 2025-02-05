@@ -5,7 +5,7 @@ DevGPT is a comprehensive dataset of 17,913 ChatGPT prompts and answers which ar
 
 1. H
 2. h
-3. H
+3. Can we predict a text’s author from the content alone?
 
 ### Methodology
 Our methodology varies slightly for each research question, specifically with the data we used. For RQ1 and RQ2 we use the DevGPT snapshot from 20231012, as they are primarily focused on exploration of the data as opposed to building a machine learning model. For RQ3, we use the entire dataset. For all of these questions, we join each of the software development artifacts files into a single master file, ensuring we extract columns that are typically nested within the json structure. 
@@ -20,3 +20,6 @@ To run the code in this repository, please ensure the following libraries are in
 - re
 - matplotlib
 - seaborn
+- gensim
+- numpy
+- sklearn
